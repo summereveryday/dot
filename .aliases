@@ -6,5 +6,24 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # ls
-alias ls='ls -GFh'
-alias la='ls -A'
+alias ls="command ls -G"
+alias l='ls -F1'
+alias la='ls -laF'
+
+# grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Show/hide hidden files in Finder
+alias show_dotfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide_dotfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
