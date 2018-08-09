@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# File whitelist
+
+!.gitignore
+!.git-completion.bash
+
+!.aliases
+!.bash_profile
+
+!.profile

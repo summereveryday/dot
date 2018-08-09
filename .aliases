@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# cd
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# ls
+alias ls='ls -GFh'
+alias la='ls -A'
