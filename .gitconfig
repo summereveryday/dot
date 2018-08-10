@@ -13,3 +13,4 @@
   p = pull
   r = reset
   st = status
+  sync = remote prune origin
