@@ -7,6 +7,7 @@
 !.git-completion.bash
 
 !.aliases
-!.bash_profile
-
+!.colors
+!.prompt
 !.profile
+!.bash_profile

@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+# # run this to view all colors
+# text='gYw'
+ 
+# for foreground in $(seq 0 255); do
+#   formatted_foreground=${foreground// /}
+#   number=$foreground
+#   while [ ${#number} -ne 3 ]; do number="0"$number; done
+#   echo -en "$number $(tput setaf $formatted_foreground) $text $(tput sgr0)"
+#   echo;
+# done
+
+tput sgr0
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+export RES=$(tput sgr0)
+export BOLD=$(tput bold)
+export DIM=$(tput dim)
+export UNDERLINE=$(tput smul)
+
+export BLK=$(tput setaf 0)
+export GRY=$(tput setaf 7)
+export WHI=$(tput bold; tput setaf 7)
+
+export RED=$WHI
+# export RED=$(tput setaf 1)
+export ORG=$(tput setaf 209)
+export YEL=$(tput setaf 228)
+export GRN=$(tput setaf 2)
+export BLU=$(tput setaf 4)
+export CYN=$(tput setaf 6)
+export PUR=$(tput setaf 5)
