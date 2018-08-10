@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function git_color {
   local git_status="$(git status 2> /dev/null)"
 
