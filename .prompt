@@ -34,11 +34,8 @@ function git_text {
 }
 
 PS1=""
-PS1+=" \[$BLU\]\w"
-PS1+="\[$RES\]"
-PS1+="\[\$(git_color)\]\$(git_text)"
-PS1+="\[$RES\]"
-PS1+=" \[$WHI\]\$"
-PS1+="\[$RES\]"
+PS1+=" $BLU\w$RES"
+PS1+="\$(git_color)\$(git_text)$RES"
+PS1+=" $WHI\$$RES"
 PS1+=" "
 export PS1
