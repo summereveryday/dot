@@ -25,8 +25,7 @@ export BLK=$(tput setaf 0)
 export GRY=$(tput setaf 7)
 export WHI=$(tput bold; tput setaf 7)
 
-export RED=$WHI
-# export RED=$(tput setaf 1)
+export RED=$(tput setaf 1)
 export ORG=$(tput setaf 209)
 export YEL=$(tput setaf 228)
 export GRN=$(tput setaf 2)
