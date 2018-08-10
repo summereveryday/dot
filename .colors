@@ -22,7 +22,7 @@ export DIM=$(tput dim)
 export UNDERLINE=$(tput smul)
 
 export BLK=$(tput setaf 0)
-export GRY=$(tput setaf 7)
+export GRY=$(tput bold; tput setaf 0)
 export WHI=$(tput bold; tput setaf 7)
 
 export RED=$(tput setaf 1)

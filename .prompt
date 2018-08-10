@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function git_color {
   local git_status="$(git status 2> /dev/null)"
 
@@ -16,7 +14,7 @@ function git_color {
   fi
 }
 
-function git_text {
+function git_branch {
   local git_directory="$(git rev-parse --show-toplevel 2> /dev/null)"
   local git_status="$(git status 2> /dev/null)"
   local on_branch="On branch ([^${IFS}]*)"
@@ -34,8 +32,7 @@ function git_text {
 }
 
 PS1=""
-PS1+=" $BLU\w$RES"
-PS1+="\$(git_color)\$(git_text)$RES"
-PS1+=" $WHI\$$RES"
-PS1+=" "
+PS1+=" \[${BLU}\]\w\[${RES}\]"
+PS1+="\[\$(git_color)\]\$(git_branch)\[${RES}\]"
+PS1+=" \[${WHI}\]\$ \[${RES}\]"
 export PS1
