@@ -1,0 +1,15 @@
+[user]
+  name = Lucas Winningham
+  email = lucas.winningham@gmail.com
+[alias]
+  a = add
+  ac = !git add . && git commit -m
+  b = branch
+  c = commit -m
+  co = checkout
+  cob = checkout -b
+  d = diff --color
+  m = merge
+  p = pull
+  r = reset
+  st = status

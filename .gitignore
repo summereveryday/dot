@@ -2,7 +2,7 @@
 *
 
 # File whitelist
-
+!.gitconfig
 !.gitignore
 !.git-completion.bash
 
