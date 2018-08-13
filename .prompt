@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function git_color {
+git_color() {
   local git_status="$(git status 2> /dev/null)"
 
   if [[ $git_status == *"Changes not staged for commit"* ]]; then
@@ -12,11 +12,11 @@ function git_color {
   elif [[ $git_status == *"nothing to commit, working tree clean"* ]]; then
     echo -e $GRN
   else
-    echo -e $BLK
+    echo -e $PUR
   fi
 }
 
-function git_branch {
+git_branch() {
   local git_directory="$(git rev-parse --show-toplevel 2> /dev/null)"
   local git_status="$(git status 2> /dev/null)"
   local on_branch="On branch ([^${IFS}]*)"

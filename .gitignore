@@ -2,12 +2,17 @@
 *
 
 # File whitelist
+
+!.bash_profile
+!.profile
+!.bashrc
+
+!.git_completion
 !.gitconfig
 !.gitignore
 !.git-completion.bash
 
 !.aliases
 !.colors
+!.functions
 !.prompt
-!.profile
-!.bash_profile
