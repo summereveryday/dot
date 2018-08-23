@@ -10,7 +10,6 @@
 !.git_completion
 !.gitconfig
 !.gitignore
-!.git-completion.bash
 
 !.aliases
 !.colors
