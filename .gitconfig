@@ -8,7 +8,7 @@
   c = commit -m
   co = checkout
   cob = checkout -b
-  d = diff --color
+  d = !git --no-pager diff --color
   m = merge
   p = pull
   r = reset
