@@ -3,12 +3,12 @@
   email = lucas.winningham@gmail.com
 [alias]
   a = add
-  ac = !git add . && git commit -m
+  ac = ! git add . && git commit -m
   b = branch
   c = commit -m
   co = checkout
   cob = checkout -b
-  d = !git --no-pager diff --color --word-diff
+  d = ! git --no-pager diff --color | sed -E 's/^([^-+ ]*)[-+ ]/\\1/'
   m = merge
   p = pull
   r = reset
