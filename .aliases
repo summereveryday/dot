@@ -8,7 +8,7 @@ alias ....="cd ../../.."
 # ls
 alias ls="command ls -G"
 alias l='ls -F1'
-alias la='ls -laF'
+alias la='ls -laFh'
 
 # grep
 alias grep='grep --color=auto'
