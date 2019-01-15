@@ -16,4 +16,5 @@
 !.functions
 !.prompt
 
-!chalk.itermcolors
+!.iterm/
+!.iterm/**/*
