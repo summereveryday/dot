@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Add pyenv for using different python versions
+export PATH="$PATH:$HOME/.pyenv"
+eval "$(pyenv init -)"
+

@@ -6,6 +6,7 @@
 !.bash_profile
 !.profile
 !.bashrc
+!.bashpy
 
 !.git_completion
 !.gitconfig
