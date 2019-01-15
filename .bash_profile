@@ -4,7 +4,7 @@
 # Profiles
 #
 
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile"
+[[ -s "$HOME/.profile" ]] && source "$HOME/.local_profile"
 [[ -s "$HOME/.bashpy" ]] && source "$HOME/.bashpy"
 [[ -s "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
