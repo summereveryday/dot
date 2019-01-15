@@ -4,6 +4,7 @@
 [alias]
   a = add
   ac = ! git add . && git commit -m
+  acp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
   b = branch
   c = commit -m
   co = checkout
