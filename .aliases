@@ -3,7 +3,6 @@
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
-alias ....="cd ../../.."
 
 # ls
 alias ls="command ls -G"
@@ -22,8 +21,8 @@ alias sudo='sudo '
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias clean_DS_Store="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Show/hide hidden files in Finder
-alias show_dotfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide_dotfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias show_hidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide_hidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
