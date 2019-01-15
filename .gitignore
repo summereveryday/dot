@@ -4,6 +4,7 @@
 # File whitelist
 
 !.bash_profile
+!.profile
 !.bashrc
 !.bashpy
 
