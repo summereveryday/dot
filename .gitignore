@@ -16,7 +16,4 @@
 !.functions
 !.prompt
 
-!.iterm_preferences.json
-
-!iterm_preferences/**/*
-!iterm_preferences/
+!.iterm_profiles.json
