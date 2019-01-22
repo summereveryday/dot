@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# cd
-alias ..="cd .."
-alias ...="cd ../.."
-
 # ls
 alias ls="command ls -G"
 alias l='ls -F1'
@@ -16,9 +12,6 @@ alias egrep='egrep --color=auto'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
-
-# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # Recursively delete `.DS_Store` files
 alias clean_DS_Store="find . -type f -name '*.DS_Store' -ls -delete"
