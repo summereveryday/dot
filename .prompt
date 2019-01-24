@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-PS1=""
-PS1+=" \[${BLU}\]\w\[${RES}\]"
-PS1+="\[\$(git_color)\]"
-PS1+=" [$(git_branch)]\[${RES}\]"
-PS1+=" \[${WHI}\]\$ \[${RES}\]"
+set_prompt() {
+  PS1=""
+  PS1+=" \[${BLU}\]\w\[${RES}\]"
+  PS1+="\[\$(git_color)\]"
+  PS1+=" [$(git_branch)]\[${RES}\]"
+  PS1+=" \[${WHI}\]\$ \[${RES}\]"
+}
 
-export PS1
+PROMPT_COMMAND=set_prompt
