@@ -4,7 +4,7 @@ set_prompt() {
   PS1=""
   PS1+=" \[${BLU}\]\w\[${RES}\]"
   PS1+="\[\$(git_color)\]"
-  PS1+=" [$(git_branch)]\[${RES}\]"
+  [ ! -z "$(git_branch)" ] && PS1+=" [$(git_branch)]\[${RES}\]"
   PS1+=" \[${WHI}\]\$ \[${RES}\]"
 }
 
