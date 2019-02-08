@@ -4,10 +4,15 @@
 # Profiles
 #
 
-[[ -s "$HOME/.profile" ]] && source "$HOME/.local_profile"
-[[ -s "$HOME/.bashpy" ]] && source "$HOME/.bashpy"
-[[ -s "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+safe_source() {
+  local file="$1"
+  [ -r "$file" ] && [ -f "$file" ] && [ -s "$file" ] && source "$file"
+}
+
+for file in ~/.{local_profile,bashrc,rvm/scripts/rvm}; do
+  safe_source "$file"
+done;
+unset file;
 
 #
 # Imports
@@ -18,6 +23,6 @@ if [ ! -f ~/.git_completion ]; then
 fi
 
 for file in ~/.{functions,aliases,git_completion,colors,prompt}; do
-  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+  safe_source "$file"
 done;
 unset file;
