@@ -3,6 +3,8 @@
 
 # File whitelist
 
+!README
+
 !.bash_profile
 !.bashrc
 !.bashpy
