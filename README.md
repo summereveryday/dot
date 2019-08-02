@@ -18,4 +18,5 @@ $ cd
 $ git init
 $ git remote add origin git@github.com:lucaswinningham/dot.git
 $ source .bashrc
+$ git push --set-upstream origin master
 ```
