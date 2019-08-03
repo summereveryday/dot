@@ -22,20 +22,33 @@ $ git push --set-upstream origin master
 ```
 
 [Install iTerm2](https://www.iterm2.com/downloads.html)
+
 iTerm2 > Preferences
+
   Profiles > Text > Font > 16
+
   Profiles > Colors > Color Presets... > Import
+
     Press CMD + SHIFT + . to get hidden files and folders to show
+
     Navigate to ~/.iterm/
+
     Select all
+
   Profiles > Colors > Color Presets... > chalk
 
 [Install Visual Studio Code](https://code.visualstudio.com/download)
+
   Install Settings Sync by Shan Khan
+
     Click LOGIN WITH GITHUB
+
     Click Authorize shanalikhan
+
     Select Visual Studio Code Settings Sync Gist
+
   CMD + SHIFT + P
+
     download settings
 
 [Install Homebrew](https://brew.sh/)
