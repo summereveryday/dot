@@ -67,6 +67,44 @@ $ source .bashrc
 $ which ruby # should not be /usr/bin/ruby
 ```
 
+Install Bundler
+
+```bash
+$ gem install bundler
+```
+
+Install PostgreSQL
+
+```bash
+$ brew install postgresql
+$ brew services start postgresql
+```
+
+Install pgcli
+
+```bash
+$ brew install pgcli
+```
+
+Install Node
+
+```bash
+$ brew install node
+```
+
+Install Angular CLI
+
+```bash
+$ npm install -g @angular/cli@latest
+```
+
+Make a code directory
+
+```bash
+$ cd
+$ mkdir code
+```
+
 Remove ~/Downloads
 
 ```bash
