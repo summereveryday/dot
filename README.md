@@ -98,6 +98,30 @@ Install Angular CLI
 $ npm install -g @angular/cli@latest
 ```
 
+Install RabbitMQ
+
+```bash
+$ brew install rabbitmq
+```
+
+```bash
+$ source ~/.bashrc
+# $ brew services start rabbitmq
+$ rabbitmq-server
+```
+
+Install jq
+
+```bash
+brew install jq
+```
+
+Install tree
+
+```bash
+$ brew install tree
+```
+
 Make a code directory
 
 ```bash
