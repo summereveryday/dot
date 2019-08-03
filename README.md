@@ -25,7 +25,7 @@ $ git push --set-upstream origin master
 
 iTerm2 > Preferences
 
- - Profiles > Text > Font > 16
+ - Profiles > Text > Font > 18
 
  - Profiles > Colors > Color Presets... > Import
 
