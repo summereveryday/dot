@@ -37,6 +37,20 @@ iTerm2 > Preferences
 
  - Profiles > Colors > Color Presets... > chalk
 
+ - Profiles > Keys > Left Option Key: Esc+
+
+ - Profiles > Keys > OPTION + LEFT
+
+   - Action: Send Escape Sequence
+
+   - Esc+: b
+
+ - Profiles > Keys > OPTION + RIGHT
+
+   - Action: Send Escape Sequence
+
+   - Esc+: f
+
 [Install Visual Studio Code](https://code.visualstudio.com/download)
 
  - Install Settings Sync by Shan Khan
