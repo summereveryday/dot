@@ -65,6 +65,12 @@ iTerm2 > Preferences
 
    - download settings
 
+ - Multi-select case sensitive
+
+   - Open a new file
+
+   - COMMAND + OPTION + C
+
 [Install Homebrew](https://brew.sh/)
 
 ```bash
