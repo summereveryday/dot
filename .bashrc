@@ -26,3 +26,6 @@ for file in ~/.{functions,aliases,git_completion,colors,path,prompt,overrides}; 
   safe_source "$file"
 done;
 unset file;
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
