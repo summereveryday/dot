@@ -2,10 +2,10 @@
 
 set_prompt() {
   PS1=""
-  PS1+=" \[${BLU}\]\w\[${RES}\]"
+  PS1+=" \[${CYN}\]\w\[${RES}\]"
   PS1+="\[\$(git_color)\]"
   [ ! -z "$(git_branch)" ] && PS1+=" [$(git_branch)]\[${RES}\]"
-  PS1+=" \[${BLU}\]\$ \[${RES}\]"
+  PS1+=" \[${CYN}\]\$ \[${RES}\]"
 }
 
 PROMPT_COMMAND=set_prompt
