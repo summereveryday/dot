@@ -36,21 +36,8 @@ iTerm2 > Preferences
 
    - Select all
 
- - Profiles > Colors > Color Presets... > chalk
+ - Profiles > Colors > Color Presets... > chalk, half-dark
 
- - Profiles > Keys > Left Option Key: Esc+
-
- - Profiles > Keys > OPTION + LEFT
-
-   - Action: Send Escape Sequence
-
-   - Esc+: b
-
- - Profiles > Keys > OPTION + RIGHT
-
-   - Action: Send Escape Sequence
-
-   - Esc+: f
 
 [Install Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -88,6 +75,13 @@ $ source .bashrc
 $ which ruby # should not be /usr/bin/ruby
 ```
 
+Make a code directory
+
+```bash
+$ cd
+$ mkdir code
+```
+
 Install Bundler
 
 ```bash
@@ -112,6 +106,11 @@ Install Node
 ```bash
 $ brew install node
 ```
+
+-------------------
+Things I don't currently use but saving just in case
+-------------------
+
 
 Install Angular CLI
 
@@ -143,15 +142,3 @@ Install tree
 $ brew install tree
 ```
 
-Make a code directory
-
-```bash
-$ cd
-$ mkdir code
-```
-
-Remove ~/Downloads
-
-```bash
-$ rm ~/Downloads/*
-```
