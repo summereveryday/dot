@@ -1,6 +1,6 @@
 [user]
-  name = Lucas Winningham
-  email = lucas.winningham@gmail.com
+  name = Summer Daily
+  email = dailycreativemedia@gmail.com
 [alias]
   a = add
   ac = ! git add . && git commit -m
