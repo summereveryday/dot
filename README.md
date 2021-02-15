@@ -67,6 +67,11 @@ iTerm2 > Preferences
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+Add tab completion to iterm2
+```bash
+$ brew install git bash-completion
+```
+
 [Install RVM with latest stable Ruby](https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/)
 
 ```bash
