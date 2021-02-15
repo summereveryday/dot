@@ -6,6 +6,8 @@ eval "$(pyenv init -)"
 
 [ -r .bashrc ] && [ -f .bashrc ] && [ -s .bashrc ] && source .bashrc
 
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh" #add tab completion
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Setting PATH for Python 3.7
