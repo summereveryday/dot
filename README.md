@@ -20,6 +20,7 @@ $ git remote add origin git@github.com:summereveryday/dot.git
 $ git pull origin master
 $ source .bashrc
 $ git push --set-upstream origin master
+$ bash (to start using bash instead of zsh)
 ```
 
 [Install iTerm2](https://www.iterm2.com/downloads.html)
