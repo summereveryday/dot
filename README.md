@@ -27,7 +27,7 @@ $ bash (to start using bash instead of zsh)
 
 iTerm2 > Preferences
 
- - Profiles > Text > Font > 16
+ - Profiles > Text > Font > 14
  
  - Profiles > Terminal > check unlimited scrollback
 
