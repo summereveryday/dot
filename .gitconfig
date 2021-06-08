@@ -1,6 +1,6 @@
 [user]
-  name = Summer Daily
-  email = dailycreativemedia@gmail.com
+	name = =
+	email = =
 [alias]
   a = add
   ac = ! git add . && git commit -m
