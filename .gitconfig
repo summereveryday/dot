@@ -6,6 +6,7 @@
   path = .gitconfig-p89
 [user]
 	name = Summer Daily
+	email = sdaily@shutterstock.com
 [alias]
   a = add
   ac = ! git add . && git commit -m
