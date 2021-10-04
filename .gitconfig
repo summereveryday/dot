@@ -22,4 +22,3 @@
   r = reset
   st = status
   sync = remote prune origin
-  test = can i do this
