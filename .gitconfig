@@ -1,6 +1,11 @@
+[includeIf "gitdir:personal/"]
+  path = .gitconfig-personal
+[includeIf "gitdir:sstk/"]
+  path = .gitconfig-sstk
+[includeIf "gitdir:p89/"]
+  path = .gitconfig-p89
 [user]
-  name = Summer Daily
-  email = dailycreativemedia@gmail.com
+	name = Summer Daily
 [alias]
   a = add
   ac = ! git add . && git commit -m
