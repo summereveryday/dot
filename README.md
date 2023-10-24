@@ -44,23 +44,7 @@ iTerm2 > Preferences
 
 [Install Visual Studio Code](https://code.visualstudio.com/download)
 
- - Install Settings Sync by Shan Khan
-
-   - Click LOGIN WITH GITHUB
-
-   - Click Authorize shanalikhan
-
-   - Select Visual Studio Code Settings Sync Gist
-
- - CMD + SHIFT + P
-
-   - download settings
-
- - Multi-select case sensitive
-
-   - Open a new file
-
-   - COMMAND + OPTION + C
+ - Login with Github and Sync Settings
 
 [Install Homebrew](https://brew.sh/)
 
