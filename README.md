@@ -17,9 +17,9 @@ Get the repo.
 $ cd
 $ git init
 $ git remote add origin git@github.com:summereveryday/dot.git
-$ git pull origin master
+$ git pull origin main
 $ source .bashrc
-$ git push --set-upstream origin master
+$ git push --set-upstream origin main
 $ bash (to start using bash instead of zsh)
 ```
 
