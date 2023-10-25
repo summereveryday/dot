@@ -1,6 +1,7 @@
 Open a terminal.
 
 Generate keys if they don't exist.
+(NOTE: don't set a password when doing this, otherwise you'll have to input one on every pull and push)
 
 ```bash
 $ cat ~/.ssh/id_rsa.pub
@@ -11,7 +12,7 @@ $ touch ~/.ssh/config
 
 Add the public key to GitHub.
 
-Get the repo. (NOTE: don't set a password when doing this, otherwise you'll have to input one on every pull and push)
+Get the repo.
 
 ```bash
 $ cd
