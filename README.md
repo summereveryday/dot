@@ -11,7 +11,7 @@ $ touch ~/.ssh/config
 
 Add the public key to GitHub.
 
-Get the repo.
+Get the repo. (NOTE: don't set a password when doing this, otherwise you'll have to input one on every pull and push)
 
 ```bash
 $ cd
