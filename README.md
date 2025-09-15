@@ -4,10 +4,18 @@ Generate keys if they don't exist.
 (NOTE: don't set a password when doing this, otherwise you'll have to input one on every pull and push)
 
 ```bash
+# Mac Terminal #
 $ cat ~/.ssh/id_rsa.pub
 $ ssh-keygen -t rsa # ↵
 $ cat ~/.ssh/id_rsa.pub
 $ touch ~/.ssh/config
+```
+
+```bash
+# Windows PowerShell #
+$ cat ~/.ssh/id_ed25519.pub
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+$ cat ~/.ssh/id_ed25519.pub
 ```
 
 Add the public key to GitHub.
