@@ -1,4 +1,15 @@
-Open a terminal.
+[Install Visual Studio Code](https://code.visualstudio.com/download)
+
+ - Login with Github and Sync Settings
+
+ Make a code directory
+
+```bash
+$ cd
+$ mkdir code
+```
+
+ Open a terminal.
 
 Generate keys if they don't exist.
 (NOTE: don't set a password when doing this, otherwise you'll have to input one on every pull and push)
@@ -41,6 +52,7 @@ Install-Module posh-git -Scope CurrentUser
 code $PROFILE
 ```
 
+If using Terminal on Mac
 
 [Install iTerm2](https://www.iterm2.com/downloads.html)
 
@@ -61,19 +73,8 @@ iTerm2 > Preferences
  - Profiles > Colors > Color Presets... > chalk, half-dark
 
 
-[Install Visual Studio Code](https://code.visualstudio.com/download)
-
- - Login with Github and Sync Settings
-
 [Install Homebrew](https://brew.sh/)
 
 ```bash
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-Make a code directory
-
-```bash
-$ cd
-$ mkdir code
 ```
