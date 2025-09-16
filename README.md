@@ -32,6 +32,16 @@ $ git push --set-upstream origin main
 $ bash (to start using bash instead of zsh)
 ```
 
+If using PowerShell in Windows
+
+1. install posh git for tab autocomplete and branch visibility
+2. open $PROFILE and copy `Microsoft.PowerShell_profile.ps1` to it
+```bash
+Install-Module posh-git -Scope CurrentUser
+code $PROFILE
+```
+
+
 [Install iTerm2](https://www.iterm2.com/downloads.html)
 
 iTerm2 > Preferences

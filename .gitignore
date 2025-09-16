@@ -5,12 +5,14 @@
 
 !README.md
 
-!.bash_profile
+.bash_profile
 !.bashrc
 !.bashpy
 
+!.Microsoft.PowerShell_profile.ps1
+
 !.git_completion
-!.gitconfig
+.gitconfig
 !.gitignore
 
 !.aliases
@@ -23,5 +25,5 @@
 !.iterm/
 !.iterm/**/*
 
-!.gemrc
+.gemrc
 
